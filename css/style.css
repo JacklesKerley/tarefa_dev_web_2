@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(204, 204, 204);
+}
+
+/* Header */
+
+.header {
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 12vh;
+}
+
+.logo {
+    margin: 1px auto 4px;
+}
+
+.logo>h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo span {
+    color: white;
+}
+
+.menu {
+    width: 40%;
+}
+
+.menu>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu>ul>li {
+    width: 20%;
+    text-align: center;
+}
+
+.menu>ul>li>a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Conteudo da pagina */
+
+.container {
+    margin: 0 auto;
+    width: 66%;
+}
+
+.materia {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0 0 0;
+}
+
+.materia1 {
+    background-color: white;
+    width: 75%;
+    margin-right: 15px;
+    padding: 15px;
+}
+
+.materia1>div>h2 {
+    color: orange;
+}
+
+.materia1>div>span {
+    font-weight: bold;
+}
+
+.materia1>hr {
+    margin: 8px 0;
+}
+
+.materia1>div>p {
+    font-weight: 600;
+    text-align: justify;
+}
+
+.materia1>div>a {
+    text-decoration: none;
+    color: orange;
+}
+
+
+.postagem {
+    width: 25%;
+}
+
+.post1 {
+    background-color: white;
+    height: 32vh;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.post1>h3 {
+    background-color: rgb(190, 190, 190);
+}
+
+.post1>p {
+    text-align: justify;
+    margin: 2px 0;
+}
+
+.post1>a {
+    text-decoration: none;
+    color: orange;
+}
+
+.post1>hr {
+    margin: 3px 0;
+}
+
+.post2 {
+    background-color: white;
+    height: 18vh;
+    padding: 10px;
+}
+
+.post2>h3 {
+    background-color: rgb(190, 190, 190);
+}
+
+.post2>ul {
+    list-style: none;
+    margin: 2px 0;
+}
+
+.post2>ul>li>a {
+    text-decoration: none;
+    color: orange;
+}
+
+.footer {
+    background-color: rgb(190, 190, 190);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 66%;
+    height: 8vh;
+    margin: 15px auto 0;
+    font-weight: bold;
+}
